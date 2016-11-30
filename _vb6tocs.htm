@@ -1,0 +1,238 @@
+<html><head><META HTTP-EQUIV="Content-Type" content="text/html;">
+<link rel="stylesheet" href="vb6tocs\service.css">
+<title>Migrates Information</title>
+<script language="javascript">
+function on_off () {
+oMe = window.event.srcElement
+var child = document.all[event.srcElement.getAttribute("child",false)];
+if (null != child)
+child.className = child.className == "collapsed" ? "expanded" : "collapsed";
+}
+function turn() {
+uMe = window.event.srcElement;
+var check = uMe.src.toLowerCase();
+if (check.lastIndexOf("plus.gif") != -1)
+{
+uMe.src = "vb6tocs/minus.gif"
+}
+else
+{
+	uMe.src = "vb6tocs/plus.gif"
+}
+}
+</script>
+</head>
+<body topmargin=0 leftmargin=0 rightmargin=0 onclick="on_off();">
+<h1>Migration Report of D:\CUBV\jalinanbv - Copy\jalinanbv.vbp</h1>
+<h2>This report shows you which VB6 files can be converted successfully by VB6TOCS. </h2><br>
+<h2>Time:&nbsp;30/11/2016 8:50:57</h2>
+<h2>Converted Issues:</h2>
+<table width=98% border=1 bordercolor=white class=firsttable>
+<tr>
+<td nowrap class=tabhd  width="30%">VB6 Files</td>
+<td nowrap class=tabhd  width="30%">New C# Files</td>
+<td nowrap class=tabhd width="30%">Issues</td>
+<td nowrap class=tabhd width="5%">Total lines</td>
+</tr>
+ <tr>
+<td><IMG src="vb6tocs/minus.gif" width=9>&nbsp;datatp.frm</td>
+ <td>datatp.cs<br>datatp.Designer.cs</td>
+ <td>0</td>
+ <td>393 </td>
+</tr>
+ <tr>
+<td><IMG src="vb6tocs/minus.gif" width=9>&nbsp;setupplafoniurantunas.frm</td>
+ <td>setupplafoniurantunas.cs<br>setupplafoniurantunas.Designer.cs</td>
+ <td>0</td>
+ <td>285 </td>
+</tr>
+ <tr>
+<td><IMG src="vb6tocs/minus.gif" width=9>&nbsp;setupplafoniuranlintang.frm</td>
+ <td>setupplafoniuranlintang.cs<br>setupplafoniuranlintang.Designer.cs</td>
+ <td>0</td>
+ <td>261 </td>
+</tr>
+ <tr>
+<td><IMG class="expandable" height=11 onclick=turn() src="vb6tocs/plus.gif" width=9 child="file4">&nbsp;iurantunas.frm</td>
+ <td >iurantunas.cs<br>iurantunas.Designer.cs</td>
+ <td >1</td>
+ <td>2382</td>
+</tr>
+<tr class=collapsed id=file4  bgcolor=#ffffff><td colspan=4>
+<table width=97% border=1 bordercolor="#dcdcdc" class=tablestyle>
+<tr nowrap class=attrhdr>
+<td>#</td>
+<td>Location</td>
+<td>Line No.</td>
+<td>Description</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>1</td>
+<td></td>
+<td></td>
+<td>VB6TOCS evaluation version can only convert the VB6 file whose lines are less than 500 lines, the lines of this VB file is 2382 lines. please purchse the final version to avoid the limitation.</td>
+</tr>
+</table>
+</td>
+</tr>
+ <tr>
+<td><IMG class="expandable" height=11 onclick=turn() src="vb6tocs/plus.gif" width=9 child="file5">&nbsp;anggota.frm</td>
+ <td >lihatanggota.cs<br>lihatanggota.Designer.cs</td>
+ <td >10</td>
+ <td>592</td>
+</tr>
+<tr class=collapsed id=file5  bgcolor=#ffffff><td colspan=4>
+<table width=97% border=1 bordercolor="#dcdcdc" class=tablestyle>
+<tr nowrap class=attrhdr>
+<td>#</td>
+<td>Location</td>
+<td>Line No.</td>
+<td>Description</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>1</td>
+<td>Command1_Click</td>
+<td>26</td>
+<td>Method or data member not found: Tab</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>2</td>
+<td>Command1_Click</td>
+<td>27</td>
+<td>Method or data member not found: TabEnabled</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>3</td>
+<td>Command2_Click</td>
+<td>26</td>
+<td>Method or data member not found: Tab</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>4</td>
+<td>Command2_Click</td>
+<td>27</td>
+<td>Method or data member not found: TabEnabled</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>5</td>
+<td>Command4_Click</td>
+<td>3</td>
+<td>Method or data member not found: TabEnabled</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>6</td>
+<td>Command4_Click</td>
+<td>4</td>
+<td>Method or data member not found: Tab</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>7</td>
+<td>Command5_Click</td>
+<td>6</td>
+<td>Method or data member not found: TabEnabled</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>8</td>
+<td>Command5_Click</td>
+<td>7</td>
+<td>Method or data member not found: Tab</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>9</td>
+<td>Form_Load</td>
+<td>2</td>
+<td>Method or data member not found: TabEnabled</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>10</td>
+<td></td>
+<td></td>
+<td>VB6TOCS evaluation version can only convert the VB6 file whose lines are less than 500 lines, the lines of this VB file is 592 lines. please purchse the final version to avoid the limitation.</td>
+</tr>
+</table>
+</td>
+</tr>
+ <tr>
+<td><IMG class="expandable" height=11 onclick=turn() src="vb6tocs/plus.gif" width=9 child="file6">&nbsp;iuranlintang.frm</td>
+ <td >iuranlintang.cs<br>iuranlintang.Designer.cs</td>
+ <td >3</td>
+ <td>273</td>
+</tr>
+<tr class=collapsed id=file6  bgcolor=#ffffff><td colspan=4>
+<table width=97% border=1 bordercolor="#dcdcdc" class=tablestyle>
+<tr nowrap class=attrhdr>
+<td>#</td>
+<td>Location</td>
+<td>Line No.</td>
+<td>Description</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>1</td>
+<td>plafon1760</td>
+<td>3</td>
+<td>Unknown object type: Adodc1</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>2</td>
+<td>plafon1760</td>
+<td>10</td>
+<td>Unknown object type: Adodc1</td>
+</tr>
+<tr class=inc_con>
+<td  width=10>3</td>
+<td>plafon1760</td>
+<td>17</td>
+<td>Unknown object type: Adodc1</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=2><IMG height=11 src="vb6tocs/minus.gif" width=9><font color=red>&nbsp;Project1.csproj</font></td>
+<td colspan=2>the project for VS 2010</td>
+</tr>
+<tr valign=top class=foot >
+<td colspan=4>File(s): 6&nbsp;&nbsp;&nbsp;&nbsp; 
+TotalLines: 4186&nbsp;&nbsp;&nbsp;&nbsp;
+</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>
+.NET SDK: 2.0.50727.5485
+</td></tr>
+<tr valign=top class=foot >
+<td colspan=4><br><br><b>ActiveX/COM:</b></td></tr>
+<tr valign=top class=foot >
+<td colspan=4>C:\Windows\SysWOW64\stdole2.tlb</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>todg8.ocx</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>TODG6.OCX</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>vsflex8u.ocx</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>MSADODC.OCX</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>TABCTL32.ocx</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>MSCOMCT2.ocx</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>C:\Windows\SysWow64\msado25.tlb</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>C:\Windows\SysWow64\MSBIND.DLL</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>vsPrint8.ocx</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>VSRpt8.ocx</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>truedc8.ocx</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>MSCOMCTL.ocx</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>C:\Windows\SysWow64\MSSTDFMT.DLL</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>timask8.ocx</td></tr>
+<tr valign=top class=foot >
+<td colspan=4>MSMASK32.OCX</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,7 @@
+D:\CUBV\New folder\obj\Debug\Project1.csprojResolveAssemblyReference.cache
+D:\CUBV\New folder\obj\Debug\Project1.datatp.resources
+D:\CUBV\New folder\obj\Debug\Project1.Form1.resources
+D:\CUBV\New folder\obj\Debug\Project1.lihatanggota.resources
+D:\CUBV\New folder\obj\Debug\Project1.csproj.GenerateResource.Cache
+D:\CUBV\New folder\obj\Debug\Project1.exe.licenses
+D:\CUBV\New folder\bin\Debug\Project1.exe.config

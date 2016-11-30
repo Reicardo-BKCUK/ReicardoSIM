@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FAF1E46F-6A9E-45E1-9216-E90F87054B41}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Project1.iurantunas</StartupObject>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project1</RootNamespace>
+    <AssemblyName>Project1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.C1TrueDBGrid.4, Version=4.0.20143.9, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TrueOleDBGrid80">
+      <Name>TrueOleDBGrid80</Name>
+      <HintPath>D:\CUBV\New folder\bin\TrueOleDBGrid80.dll</HintPath>
+    </Reference>
+    <Reference Include="TrueOleDBGrid60">
+      <Name>TrueOleDBGrid60</Name>
+      <HintPath>D:\CUBV\New folder\bin\TrueOleDBGrid60.dll</HintPath>
+    </Reference>
+    <Reference Include="VSFlex8U">
+      <Name>VSFlex8U</Name>
+      <HintPath>D:\CUBV\New folder\bin\VSFlex8U.dll</HintPath>
+    </Reference>
+    <Reference Include="MSAdodcLib">
+      <Name>MSAdodcLib</Name>
+      <HintPath>D:\CUBV\New folder\bin\MSAdodcLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MSComCtl2">
+      <Name>MSComCtl2</Name>
+      <HintPath>D:\CUBV\New folder\bin\MSComCtl2.dll</HintPath>
+    </Reference>
+    <Reference Include="nce.adodb">
+      <Name>nce.adodb</Name>
+      <HintPath>C:\VB6TOCS\bin\nce.adodb.dll</HintPath>
+    </Reference>
+    <Reference Include="MSBind">
+      <Name>MSBind</Name>
+      <HintPath>D:\CUBV\New folder\bin\MSBind.dll</HintPath>
+    </Reference>
+    <Reference Include="VSPrinter8Lib">
+      <Name>VSPrinter8Lib</Name>
+      <HintPath>D:\CUBV\New folder\bin\VSPrinter8Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="VSReport8Lib">
+      <Name>VSReport8Lib</Name>
+      <HintPath>D:\CUBV\New folder\bin\VSReport8Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="TrueData80">
+      <Name>TrueData80</Name>
+      <HintPath>D:\CUBV\New folder\bin\TrueData80.dll</HintPath>
+    </Reference>
+    <Reference Include="StdFormat">
+      <Name>StdFormat</Name>
+      <HintPath>D:\CUBV\New folder\bin\StdFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="TDBMask6">
+      <Name>TDBMask6</Name>
+      <HintPath>D:\CUBV\New folder\bin\TDBMask6.dll</HintPath>
+    </Reference>
+    <Reference Include="MSMask">
+      <Name>MSMask</Name>
+      <HintPath>D:\CUBV\New folder\bin\MSMask.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="AxMSAdodcLib">
+      <Name>AxMSAdodcLib</Name>
+      <HintPath>D:\CUBV\New folder\bin\AxMSAdodcLib.dll</HintPath>
+    </Reference>
+    <Reference Include="AxTrueOleDBGrid80">
+      <Name>AxTrueOleDBGrid80</Name>
+      <HintPath>D:\CUBV\New folder\bin\AxTrueOleDBGrid80.dll</HintPath>
+    </Reference>
+    <Reference Include="AxTrueOleDBGrid60">
+      <Name>AxTrueOleDBGrid60</Name>
+      <HintPath>D:\CUBV\New folder\bin\AxTrueOleDBGrid60.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="AxMSMask">
+      <Name>AxMSMask</Name>
+      <HintPath>D:\CUBV\New folder\bin\AxMSMask.dll</HintPath>
+    </Reference>
+    <Reference Include="AxMSComCtl2">
+      <Name>AxMSComCtl2</Name>
+      <HintPath>D:\CUBV\New folder\bin\AxMSComCtl2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="datatp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datatp.Designer.cs">
+      <DependentUpon>datatp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="datatp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>datatp.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="DBJALINAN2DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBJALINAN2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="setupplafoniurantunas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setupplafoniurantunas.Designer.cs">
+      <DependentUpon>setupplafoniurantunas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="setupplafoniuranlintang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setupplafoniuranlintang.Designer.cs">
+      <DependentUpon>setupplafoniuranlintang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iurantunas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iurantunas.Designer.cs">
+      <DependentUpon>iurantunas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lihatanggota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lihatanggota.Designer.cs">
+      <DependentUpon>lihatanggota.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lihatanggota.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>lihatanggota.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="iuranlintang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iuranlintang.Designer.cs">
+      <DependentUpon>iuranlintang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vb6Globals.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <None Include="app.config" />
+    <None Include="DBJALINAN2DataSet.xsc">
+      <DependentUpon>DBJALINAN2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBJALINAN2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBJALINAN2DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBJALINAN2DataSet.xss">
+      <DependentUpon>DBJALINAN2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="_vb6tocs.htm">
+      <SubType>Preview</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DBJALINAN2.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
