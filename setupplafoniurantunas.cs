@@ -59,11 +59,7 @@ namespace Project1
         // '"Nama : " & txtNama.Text & vbNewLine & _
         // '"Jenis Kelamin : " & jk & vbNewLine & "Hobby : " & hobby
         // =========================================================
-        private void Text1_Change(System.Object _sender, System.EventArgs _e1) 
-        {
-
-        }
-
+   
         private void Text2_KeyPress(System.Object _sender, System.Windows.Forms.KeyPressEventArgs _e1) 
         {
             int KeyAscii = (short)(_e1.KeyChar);
@@ -78,7 +74,7 @@ namespace Project1
         private void Text3_KeyPress(System.Object _sender, System.Windows.Forms.KeyPressEventArgs _e1) 
         {
             int KeyAscii = (short)(_e1.KeyChar);
-            if (!((KeyAscii >= (short)("0"[0]) && KeyAscii <= (short)("9"[0]) || KeyAscii == Keys.Back || KeyAscii == Keys.KeyDelete || KeyAscii == Keys.Space || KeyAscii == Keys.Return)))
+            if (!((KeyAscii >= (short)("0"[0]) && KeyAscii <= "9"[0] || KeyAscii == Keys.Back || KeyAscii == Keys.KeyDelete || KeyAscii == Keys.Space || KeyAscii == Keys.Return)))
             {
                 MessageBox.Show("Maaf Hanya Boleh Diisi Angka Saja", "Perhatian",  MessageBoxButtons.OK, MessageBoxIcon.Information );
                 KeyAscii = 0;
@@ -89,7 +85,7 @@ namespace Project1
         private void Text4_KeyPress(System.Object _sender, System.Windows.Forms.KeyPressEventArgs _e1) 
         {
             int KeyAscii = (short)(_e1.KeyChar);
-            if (!((KeyAscii >= (short)("0"[0]) && KeyAscii <= (short)("9"[0]) || KeyAscii == Keys.Back || KeyAscii == Keys.KeyDelete || KeyAscii == Keys.Space || KeyAscii == Keys.Return)))
+            if (!((KeyAscii >= (short)("0"[0]) && KeyAscii <= (short)("9"[0]) || KeyAscii = Keys.Back || KeyAscii = Keys.KeyDelete || KeyAscii == Keys.Space || KeyAscii == Keys.Return)))
             {
                 MessageBox.Show("Maaf Hanya Boleh Diisi Angka Saja", "Perhatian",  MessageBoxButtons.OK, MessageBoxIcon.Information );
                 KeyAscii = 0;
